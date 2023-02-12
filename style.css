@@ -1,0 +1,41 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  background-image:url(header.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+  background-attachment: fixed;
+}
+h1{
+  color: #e2dbdb;
+  font-size: 3rem;
+}
+hr {
+  margin: 20px auto;
+  color: #F05F44;
+  border: 3px solid #F05F44;
+  max-width: 65px;
+  opacity: 1;  
+}
+.btn-mine{
+  background-color: rgb(239, 102, 29);
+  color: rgb(25, 23, 23);
+  font-size: 1.5em;
+  /*font-weight??? is */
+  border-radius: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.btn-danger{
+  border-color: rgb(239, 102, 29);/*mert a bootstrap adott neki egy default bordert szint, ezert valtoztattuk meg*/
+}
+.btn-danger:hover{
+  border-width: 3px;
+}
+.buffer{
+  height: 10rem;
+}
